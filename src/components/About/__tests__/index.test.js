@@ -3,7 +3,7 @@ import { render, cleanup } from '@testing-library/react';
 import '@testing-library/jest-dom/extend-expect';
 import About from "..";
 afterEach(cleanup);
-describe('About component', () => {
+describe('About component renders', () => {
     //First Test
     it('renders', () => {
         render(<About />);
